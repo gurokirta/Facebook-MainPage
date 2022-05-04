@@ -8,10 +8,14 @@ img {
   position: relative;
   left: 337px;
   top: 142px;
+  border: solid black;
+  border-width: 1px;
+  height: 405px;
+  width: 330px;
 }
 
 #fblogo {
-  left: -21px;
+  left: -1px;
   height: 70px;
   margin: 0;
   position: relative;
@@ -32,7 +36,7 @@ img {
   margin-bottom: 12px;
 }
 .container {
-  color: black;
+  border: black;
   border-radius: 7px;
   width: 186px;
   right: 783px;
@@ -54,6 +58,48 @@ img {
 }
 .plus {
   position: relative;
-  left: 149px;
-  top: -124px;
+  top: -109px;
+}
+
+.content {
+  position: relative;
+  text-align: center;
+}
+
+.mb-3 {
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+
+.form {
+  width: 302px;
+  border-radius: 10px;
+  left: 1142px;
+  position: relative;
+  top: -242px;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.btn-primary {
+  background-color: #1877f2;
+}
+
+.place {
+  border-radius: 7px;
+  text-align: center;
+  width: 297px;
+  left: 2px;
+  position: relative;
+}
+.nac {
+  background-color: #42b72a;
+  color: white;
+  border-radius: 7px;
+}
+hr {
+  height: 1px;
+  width: 266px;
+  text-align: center;
+  position: relative;
+  left: 9px;
 }
